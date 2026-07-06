@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Model Bench — Gemini vs Groq/Llama 3.3
 
 A side-by-side LLM evaluator: send one prompt, get responses from **Gemini 1.5 Flash** and **Llama 3.3 70B (via Groq)** in parallel, and compare latency, word count, and the actual output.
@@ -65,3 +66,6 @@ lib/
 - Built a full-stack LLM evaluation tool (Next.js 15, TypeScript) that runs concurrent API calls to Gemini and Groq/Llama 3.3, benchmarking latency and output length in real time
 - Designed an API layer with graceful degradation — partial provider failures don't break the UI, using isolated error handling per external call
 - Implemented a responsive comparison UI in Tailwind CSS with distinct visual states for loading, success, and per-provider error handling
+=======
+# ai-prompt-evaluator
+>>>>>>> b181014d9cec3ed17f45ebcfcd3acd9e0d5da977
